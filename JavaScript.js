@@ -75,7 +75,7 @@ function response_index(request,response){
     var msg = chef.toBase64("Indexpage");
     var content = ejs.render(index_page, {
         title:"Index",
-        content:msg,
+        content:"key:vad5jvt52k59rspa,vi:c9fx8mqjjxwkikub",
     });
     response.writeHead(200, {'Content-Type': 'text/html'});
     response.write(content);
